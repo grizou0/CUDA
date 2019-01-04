@@ -1,4 +1,4 @@
-Ubuntu 16.08 et Cuda-8.0 
+Ubuntu 16.08 et Cuda-8.0 et cuDNNV6.0
 For Ubuntu 16.04
 
 sudo apt-get update && sudo apt-get install wget -y --no-install-recommends
@@ -8,9 +8,9 @@ sudo apt-get update
 sudo apt-get install cuda
 
 Install cuDNN (all Ubuntu versions)
-Version 5.1
+Version 6.0
 
-CUDNN_URL="http://developer.download.nvidia.com/compute/redist/cudnn/v5.1/cudnn-8.0-linux-x64-v5.1.tgz"
+CUDNN_URL="http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz"
 wget ${CUDNN_URL}
-sudo tar -xzf cudnn-8.0-linux-x64-v5.1.tgz -C /usr/local
-rm cudnn-8.0-linux-x64-v5.1.tgz && sudo ldconfig
+sudo tar -xzf cudnn-8.0-linux-x64-v6.0.tgz -C /usr/local
+rm cudnn-8.0-linux-x64-v6.0.tgz && sudo ldconfig
