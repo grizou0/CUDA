@@ -13,7 +13,7 @@ CUDNN_URL="http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-
 wget ${CUDNN_URL}
 sudo tar -xzf cudnn-8.0-linux-x64-v6.0.tgz -C /usr/local
 rm cudnn-8.0-linux-x64-v6.0.tgz && sudo ldconfig
-Version 7
+Version 7.1
 wget http://developer.download.nvidia.com/compute/redist/cudnn/v7.1.2/cudnn-8.0-linux-x64-v7.1.tgz
 sudo tar -xzf cudnn-8.0-linux-x64-v7.1.tgz -C /usr/local
 rm cudnn-8.0-linux-x64-v7.1.tgz && sudo ldconfig
